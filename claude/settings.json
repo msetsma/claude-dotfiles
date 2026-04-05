@@ -3,6 +3,10 @@
     "CLAUDE_CODE_ENABLE_TELEMETRY": "1"
   },
   "includeCoAuthoredBy": false,
+  "attribution": {
+    "commit": "",
+    "pr": ""
+  },
   "permissions": {
     "allow": [
       "WebSearch",
