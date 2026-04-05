@@ -1,0 +1,23 @@
+# .dotter/global.toml
+# All packages and their symlink targets.
+# local.toml (git-ignored) selects which packages to deploy on each machine.
+
+[claude.files]
+"claude/CLAUDE.md"     = "~/.claude/CLAUDE.md"
+"claude/settings.json" = "~/.claude/settings.json"
+
+[rules.files]
+"rules/common" = "~/.claude/rules/common"
+"rules/python"  = "~/.claude/rules/python"
+
+[skills.files]
+# Add one entry per skill folder you create, e.g.:
+# "skills/my-skill" = "~/.claude/skills/my-skill"
+
+[agents.files]
+# Add one entry per agent file you create, e.g.:
+# "agents/my-agent.md" = "~/.claude/agents/my-agent.md"
+
+[commands.files]
+# Add one entry per slash-command file you create, e.g.:
+# "commands/my-command.md" = "~/.claude/commands/my-command.md"
