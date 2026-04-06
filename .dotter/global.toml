@@ -12,7 +12,7 @@
 
 [skills.files]
 # Add one entry per skill folder you create, e.g.:
-# "skills/my-skill" = "~/.claude/skills/my-skill"
+"skills/my-skill" = "~/.claude/skills/my-skill"
 
 [agents.files]
 # Add one entry per agent file you create, e.g.:

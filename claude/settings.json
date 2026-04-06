@@ -36,7 +36,6 @@
       "Read(./build)",
       "Bash(sudo *)",
       "Bash(rm -rf /*)",
-      "Bash(curl *)",
       "Bash(wget *)",
       "Bash(ssh *)",
       "Bash(scp *)",
